@@ -1,8 +1,7 @@
-import sys
 import math
 import string
 
-cases = int(sys.stdin.readline().rstrip())
+cases = int(input().strip())
 
 for i in range(cases):
-    splitted = (sys.stdin.readline().rstrip()).split(" ")
+    splitted = input().strip().split(" ")
