@@ -1,7 +1,6 @@
-import math
-import string
 
-cases = int(input().strip())
+cases = int(input().rstrip())
 
-for i in range(cases):
-    splitted = input().strip().split(" ")
+for caseNum in range(cases):
+    line = input().rstrip()
+    print(line)
